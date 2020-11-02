@@ -1,3 +1,3 @@
 # api
-![[pic](../img/pic.jpeg)
-![pict](../img/foto.png)
+![pic](./img/pic.jpeg)
+![pict](./img/foto.png)
