@@ -1,3 +1,4 @@
 # api
-![pic](./img/pic.jpeg)
+![music](./img/music.png)
+![web](./img/web.png)
 ![pict](./img/foto.png)
