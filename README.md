@@ -2,3 +2,5 @@
 ![music](./img/music.png)
 ![web](./img/web.png)
 ![pict](./img/foto.png)
+![pic](./img/pic.JPEG)
+![pit](./img/pict.JPG)
