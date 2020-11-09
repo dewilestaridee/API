@@ -1,4 +1,6 @@
 # api
+Merupakan website profile sederhana yang didalamnya terdapat integrasi dengan API Public omdbapi.com
+
 ![music](./img/music.png)
 ![web](./img/web.png)
 ![pict](./img/foto.png)
