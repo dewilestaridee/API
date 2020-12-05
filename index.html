@@ -10,7 +10,72 @@
 
     <!-- My CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <style>
+      .kotak {
+             width:80px;
+             height: 80px;
+             display: inline-block;
+             background-image: url(https://i.pinimg.com/236x/80/00/9b/80009b1f0965202d12a0e74336b13b47.jpg);
+             background-size: cover;
+             justify-content: center;
+             margin-left: 480px;
+             margin-top: 10px;
+             margin-bottom: 10px;
+             text-align: center;
+             animation: animate 5s linear infinite;
+         }
+        
+         @keyframes animate {
+             0% {
+                 border-radius: 64% 36% 27% 73% / 55% 58% 42% 54%;
+             }25%{
+                 border-radius: 73% 27% 26% 38% / 75% 36% 64% 27%;;
+             }50%{
+                 border-radius: 28% 72% 44% 56% / 49% 40% 60% 51%;;
+             }75%{
+                 border-radius: 40% 60% 70% 30% / 47% 62% 36% 53%;;
+             }
+         }
 
+         .kotak1 {
+             width:80px;
+             height: 80px;
+             display: inline-block;
+             background-image: url(https://i.pinimg.com/236x/b0/43/0f/b0430fe363e9d4dd53f6dbdb140ef480.jpg);
+             background-size: cover;
+             justify-content: center;
+             margin-top: 10px;
+             margin-bottom: 10px;
+             text-align: center;
+             animation: animate 5s linear infinite;
+         }
+
+         .kotak2 {
+             width:80px;
+             height: 80px;
+             display: inline-block;
+             background-image: url(https://i.pinimg.com/564x/b4/62/e6/b462e627fbd96f4e4c8cb5115966f3df.jpg);
+             background-size: cover;
+             justify-content: center;
+             margin-top: 10px;
+             margin-bottom: 10px;
+             text-align: center;
+             animation: animate 5s linear infinite;
+         }
+         .kotak3 {
+             width:80px;
+             height: 80px;
+             display: inline-block;
+             background-image: url(https://i.pinimg.com/236x/69/42/ce/6942ce06f648a585068706b7d4657af0.jpg);
+             background-size: cover;
+             justify-content: center;
+             margin-top: 5px;
+             margin-bottom: 10px;
+             text-align: center;
+             animation: animate 5s linear infinite;
+         }
+    </style>
+    
     <title>Profile</title>
   </head>
   <body>
@@ -57,27 +122,17 @@
             <a href="https://www.instagram.com/deewi.dee/" target="_blanks" class="btn instagram"><span class="fa fa-instagram"></span>Instagram Profile</a>
               <a href="https://inspiring-feynman-00b6f2.netlify.app/" target="_blanks" class="btn instagram"><span class="fa fa-instagram"></span>Galeri Portfolio</a>
             <a href="https://twitter.com/dewilestari_dee" target="_blank" class="btn twitter"><span class="fa fa-twitter"></span>Twitter Account</a>
+            <p>atau</p>
+            <a href="books.html" target="_blanks" class="btn signup">Books | Movie | Music</a>
           </div>
         </div>
       </div>
   
-<!--movies-->
-<section class="movies" id="movies">
-      <div class="col text-center" style="background: linear-gradient(lightpink, lavender)">
-        <h2>Search Movie Favorit</h2>
-          <div class="input-group mb-3">
-          <input type="text" class="form-control" style="height: auto;" placeholder="Judul Film" id="search-input">
-          <div class="input-group-append">
-            <button class="btn btn-outline-secondary" type="button" id="search-button">Cari</button>
-          </div>
-    </div>
-    <div class="row" id="movie-list">
-    </div>
-  </div>
-</section>
-
-<hr>
-
+      <div class="kotak"></div>
+      <div class="kotak1"></div>
+      <div class="kotak2"></div>
+      <div class="kotak3"></div>
+    
 <!-- Portfolio-->
 <section class="portfolio" id="portfolio">
     <div class="container" style="background: linear-gradient(lavender, lightpink)">
@@ -209,7 +264,7 @@
                  <img src="img/music.png" class="card-img-top" alt="...">
 
                     <div class="card-body">
-                 <h5 class="card-title"><a href="movie.html">Movie</a> & Music</h5>
+                 <h5 class="card-title"><a href="books.html">Movie & Music</a></h5>
                  <p class="card-text">Mendengarkan berbagai genre musik seperti rock, pop, K-pop dan apapun yang ear catching. Menonton banyak sekali genre film. All time favorit movie is all of the Harry Potter series.</p>
            
                     </div>
@@ -226,27 +281,8 @@
 </section>
 
 <hr>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Detail Informasi</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-       <div class="modal-body" style="background: linear-gradient(lavender, lightpink)">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
+    
+    
 
 <!-- Kerja -->
 <section class="Kerja" id="Kerja">
@@ -278,6 +314,45 @@
 </div>
 
 </section>
+  
+  <!--movies-->
+<section class="movies" id="movies">
+      <div class="col text-center" style="background: linear-gradient(lightpink, lavender)">
+        <h2>Search Movie Favorit</h2>
+          <div class="input-group mb-3">
+          <input type="text" class="form-control" style="height: auto;" placeholder="Judul Film" id="search-input">
+          <div class="input-group-append">
+            <button class="btn btn-outline-secondary" type="button" id="search-button">Cari</button>
+          </div>
+    </div>
+    <div class="row" id="movie-list">
+    </div>
+  </div>
+</section>
+
+<hr>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Detail Informasi</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+       <div class="modal-body" style="background: linear-gradient(lavender, lightpink)">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <!-- footer -->
 <footer class="bg-dark text-white mt-5">
