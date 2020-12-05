@@ -19,4 +19,6 @@ Merupakan website profile sederhana yang didalamnya terdapat integrasi dengan AP
 ![img](./img/4.png)
 ![img](./img/5.png)
 ![img](./img/6.png)
-
+![img](./img/7.png)
+![img](./img/8.png)
+![img](./img/9.png)
