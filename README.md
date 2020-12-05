@@ -12,3 +12,11 @@ Merupakan website profile sederhana yang didalamnya terdapat integrasi dengan AP
 ![ig](./img/ig.JPG)
 ![ig1](./img/ig1.JPG)
 ![ig2](./img/ig2.JPG)
+
+![img](./img/1.png)
+![img](./img/2.png)
+![img](./img/3.png)
+![img](./img/4.png)
+![img](./img/5.png)
+![img](./img/6.png)
+
