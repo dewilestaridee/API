@@ -24,8 +24,12 @@
             display: flex;
             list-style: none;
             width : 40%;
-         
+            transition: 3s;
           }
+          nav ul:hover {
+            transform: translate(700px);
+          }
+            
           nav ul li h1{
             font-size: 40px;
             font-family: 'Ranchers', cursive;
@@ -52,6 +56,7 @@
              background-size: cover;
              margin-top: 10px;
              animation: animate 5s linear infinite;
+             transition: 3s;
          }
         
          @keyframes animate {
@@ -72,9 +77,8 @@
              display: inline-block;
              background-image: url(https://i.pinimg.com/236x/b0/43/0f/b0430fe363e9d4dd53f6dbdb140ef480.jpg);
              background-size: cover;
-             
              margin-top: 10px;
-             
+             transition: 2s;
              animation: animate 5s linear infinite;
          }
 
@@ -84,9 +88,8 @@
              display: inline-block;
              background-image: url(https://i.pinimg.com/564x/b4/62/e6/b462e627fbd96f4e4c8cb5115966f3df.jpg);
              background-size: cover;
-            
+             transition: 3s;
              margin-top: 10px;
-    
              animation: animate 5s linear infinite;
          }
          .kotak3 {
@@ -95,12 +98,31 @@
              display: inline-block;
              background-image: url(https://i.pinimg.com/236x/69/42/ce/6942ce06f648a585068706b7d4657af0.jpg);
              background-size: cover;
-             
+             transition: 2s;
              margin-top: 10px;
-        
              animation: animate 5s linear infinite;
-         }
-
+            }
+            
+            .kotak:hover {
+            transform: rotate(360deg);
+            }
+            .kotak1:hover {
+            transform: rotate(360deg);
+            }
+            .kotak2:hover {
+            transform: rotate(360deg);
+            }
+            .kotak3:hover {
+            transform: rotate(360deg);
+            }
+            
+            .card{
+            transition:1s ;
+            }
+            
+            .card:hover {
+            transform: scale(0.97);
+            }
 
          .footer {
              background-color: rgba(197, 180, 85, 0.795);
