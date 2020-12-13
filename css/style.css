@@ -65,3 +65,10 @@ footer {
 .ig-thumbnail img{
   width: 100px;
 }
+
+ .rounded-circle{
+  transition: 1s;
+  }
+ .rounded-circle:hover {
+  transform:scale(1.1);
+  }
